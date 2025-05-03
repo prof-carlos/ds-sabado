@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 50px;
+}
+
+h2 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+.no-users {
+    text-align: center;
+    color: #777;
+    font-style: italic;
+}
+
+.button-container {
+    margin-top: 20px;
+    text-align: center; /* Opcional, para centralizar o botão dentro do container, se necessário */
+}
+
+.button-cadastro {
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    padding: 10px 15px; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão do botão */
+    border-radius: 5px; /* Arredonda as bordas do botão */
+    cursor: pointer; /* Muda o cursor ao passar por cima */
+    font-size: 14px;
+    text-decoration: none; /* Remove qualquer sublinhado (se aplicado) */
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave para o hover */
+}
+
+.button-cadastro:hover {
+    background-color: #0056b3; /* Cor de fundo mais escura no hover */
+}
