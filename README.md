@@ -1,7 +1,8 @@
-# Salvando.
+# deploy
 
-git add .
+## Variáveis de ambiente:
 
-git commit -m "salvar"
+JDBC_DATABASE_URL: jdbc:postgresql://DB_HOST.oregon-postgres.render.com:5432/DB_NAME?sslmode=require
 
-git push
+DB_USERNAME:
+DB_PASSWORD:
